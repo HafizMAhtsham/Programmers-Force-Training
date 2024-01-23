@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Chain</title>
+</head>
+
+<body>
+    <label for="country">Country:</label>
+    <select id="country" selected>
+        <option>--Choose Country--</option>
+        <option value="pakistan">Pakistan</option>
+        <option value="india">India</option>
+        <option value="china">China</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+    </select>
+    <br>
+    <label for="state">State:</label>
+    <select id="state" disabled selected>
+        <option value="" disabled selected>Select a country first</option>
+    </select>
+    <br>
+    <label for="city">City:</label>
+    <select id="city" disabled>
+        <option value="" disabled selected>Select a state first</option>
+    </select>
+    <script src="index.js"></script>
+</body>
+
+</html>
