@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;   
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    padding: 30px;
+    margin: 30px;
+    justify-content: space-between;
+}
+.container-1{
+    text-align: center;
+  background-color: aqua;
+}
+.container-1 form input{
+    text-align: center;
+}
+
+.container-2{
+    background-color: chartreuse;
+    text-align: justify;
+    text-decoration: none;
+    
+}
+.form1{
+ padding: auto;
+}
+.form2{
+    padding-top: 20px;
+}
+.btn-1{
+margin: 10px;
+background-color: black;
+color: white;
+}
