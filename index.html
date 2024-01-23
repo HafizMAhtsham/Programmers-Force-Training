@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <h1>HTML Form</h1>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label for="name">Name:</label>
+                </td>
+                <td>
+                    <input type="text" id="name" name="username" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email:</label>
+                </td>
+                <td>
+                    <input type="text" id="email" name="usermail" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="age">Age:</label>
+                </td>
+                <td>
+                    <input type="text" name="userage" id="age" size="2" maxlength="2">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="color">Select Color:</label>
+                </td>
+                <td>
+                    <input type="color" id="color" name="selectedColor">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="date">Select Date:</label>
+                </td>
+                <td>
+                    <input type="date" id="date" name="selectedDate">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="time">Select Time:</label>
+                </td>
+                <td>
+                    <input type="time" id="time" name="selectedTime">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="country">Country:</label>
+                </td>
+                <td>
+                    <input type="text" value="Pakistan" name="country">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Password:</label>
+                </td>
+                <td>
+                    <input type="password" id="password" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="resume">Resume:</label>
+                </td>
+                <td>
+                    <input type="file" id="resume" name="userResume" accept=".pdf, .doc, .docx">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Hobbies:</label>
+                </td>
+                <td>
+                    <label>
+                        <input type="checkbox"> Cricket
+                    </label>
+                    <label>
+                        <input type="checkbox"> Football
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Gender:</label>
+                </td>
+                <td>
+                    <label>
+                        <input type="radio" value="m" name="gender"> Male
+                    </label>
+                    <label>
+                        <input type="radio" value="f" name="gender"> Female
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="city">City:</label>
+                </td>
+                <td>
+                    <select id="city" name="city">
+                        <option>--Choose City--</option>
+                        <optgroup label="Cities in Pakistan">
+                            <option>Lahore</option>
+                            <option>Karachi</option>
+                            <option>Islamabad</option>
+                            <option>Peshawar</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Address:</label>
+                </td>
+                <td>
+                    <textarea rows="4" cols="20" name="userAddress"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Submit">
+                    <input type="reset">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="startWebcam">Start Webcam:</label>
+                </td>
+                <td>
+                    <button type="button" id="startWebcam">Start</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="stopWebcam">Stop Webcam:</label>
+                </td>
+                <td>
+                    <button type="button" id="stopWebcam">Stop</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="captureScreen">Capture Screen:</label>
+                </td>
+                <td>
+                    <button type="button" id="captureScreen">Capture</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
